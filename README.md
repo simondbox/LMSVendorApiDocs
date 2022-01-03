@@ -2,6 +2,54 @@
 
 Details of all payloads with Request and Response Params
 
+### /addLearningActivities (Master Import For Learning Activities)
+
+#### Request Params
+
+```
+{
+    "tenant_id": "",
+    "learning_activity_code": "",
+    "learning_activity_name": "",
+    "learning_activity_description": "",
+    "talent_vendor_code" "",
+    "talent_program_code": "",
+    "assign_to": [],
+    "allow_search_to": [],
+    "enrolled_to": [],
+    "Currency": "",
+    "cost": "",
+    "available_from": "YYYY-MM-DD",
+    "available_to": "YYYY-MM-DD",
+    "content_link": "",
+    "competencies_or_skills" : "",
+    "competencies_or_skills_Code": "",
+    "scale": "",
+    "unenrolled_from": []
+   
+}
+```
+
+#### Response Params
+
+``` 
+{
+  "status" : 1,
+  "message" : "Successfully Added/Updated"
+}
+
+``` 
+Error
+
+``` 
+
+{
+  "status" : 0,
+  "error" : "Message"
+}
+
+```
+
 ### /searchLearningActivity (To search activities in LMS Vendor)
 
 #### Request Params
