@@ -17,7 +17,7 @@ Details of all payloads with Request and Response Params
     "assign_to": [],
     "allow_search_to": [],
     "enrolled_to": [],
-    "Currency": "",
+    "currency": "",
     "cost": "",
     "available_from": "YYYY-MM-DD",
     "available_to": "YYYY-MM-DD",
